@@ -1,55 +1,49 @@
 body {
-  font-family: Arial, sans-serif;
-  background: #f5f6f8;
-  padding: 20px;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #ffffff;
+  color: #111827;
 }
 
-.card {
-  background: white;
-  max-width: 360px;
-  margin: auto;
-  border-radius: 12px;
-  padding: 16px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-}
-
-.card-image {
+.blog-container {
   width: 100%;
-  height: 160px;
-  background: repeating-linear-gradient(
-    45deg,
-    #e5e7eb,
-    #e5e7eb 10px,
-    #f3f4f6 10px,
-    #f3f4f6 20px
-  );
-  border-radius: 8px;
-  margin-bottom: 16px;
+  max-width: 720px;   /* 👈 ancho tipo blog */
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.breadcrumb {
+  color: #6b7280;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+
+.meta {
+  color: #6b7280;
+  font-size: 14px;
+  margin-bottom: 24px;
 }
 
 h2 {
-  margin: 0;
+  margin-top: 32px;
+}
+
+h3 {
+  margin-top: 24px;
 }
 
 p {
-  color: #555;
+  line-height: 1.7;
+  margin: 16px 0;
 }
 
-.tags {
-  margin: 12px 0;
-}
-
-.tags span {
-  display: inline-block;
-  background: #eef2f7;
-  padding: 6px 10px;
-  border-radius: 20px;
-  font-size: 13px;
-  margin: 4px 4px 0 0;
-}
-
-.link {
+a {
   color: #2563eb;
   text-decoration: none;
-  font-weight: bold;
 }
