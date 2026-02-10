@@ -1,9 +1,9 @@
-/* RESET BÁSICO */
+/* BASE */
 body {
   margin: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  color: #111827;
   background: #ffffff;
+  color: #111827;
 }
 
 /* NAVBAR */
@@ -16,13 +16,13 @@ body {
 }
 
 .logo {
-  font-size: 22px;
-  font-weight: bold;
+  font-size: 20px;
+  font-weight: 600;
   color: #2563eb;
 }
 
 .navbar nav a {
-  margin-left: 16px;
+  margin-left: 18px;
   text-decoration: none;
   color: #6b7280;
   font-weight: 500;
@@ -36,16 +36,16 @@ body {
 .home {
   display: flex;
   justify-content: center;
-  padding: 32px 16px;
+  padding: 40px 16px;
 }
 
 .card {
   width: 100%;
-  max-width: 360px;
+  max-width: 420px;
   background: #f9fafb;
-  padding: 20px;
-  border-radius: 14px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.08);
 }
 
 .tags span {
@@ -59,37 +59,30 @@ body {
 
 .link {
   display: inline-block;
-  margin-top: 18px;
-  color: #2563eb;
-  font-weight: bold;
+  margin-top: 20px;
   text-decoration: none;
+  color: #2563eb;
+  font-weight: 600;
 }
 
-/* BLOG (LA PARTE CLAVE) */
+/* BLOG */
 .blog-container {
   width: 100%;
-  max-width: 780px;        /* 👈 mismo centrado en celular y PC */
-  margin-left: auto;
-  margin-right: auto;
-  padding: 24px 20px 48px;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 28px 20px 48px;
 }
 
 .breadcrumb {
   font-size: 14px;
   color: #6b7280;
-  margin-bottom: 12px;
-}
-
-.meta {
-  font-size: 14px;
-  color: #6b7280;
-  margin-bottom: 28px;
+  margin-bottom: 14px;
 }
 
 h1 {
   font-size: 32px;
   line-height: 1.2;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 
 h2 {
@@ -103,9 +96,4 @@ h3 {
 p {
   line-height: 1.75;
   margin: 18px 0;
-}
-
-.link-inline {
-  color: #2563eb;
-  font-weight: 500;
 }
